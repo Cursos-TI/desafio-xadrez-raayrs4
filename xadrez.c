@@ -30,5 +30,17 @@ int main()
     k++;
   } while (k <= casasRainha);
 
+  printf("\nMovimento do Cavalo:\n");
+  for (int m = 1; m <= 2; m++)
+  {
+    printf("Baixo\n");
+  }
+  int n = 1;
+  while (n <= 1)
+  {
+    printf("Esquerda\n");
+    n++;
+  }
+
   return 0;
 }
